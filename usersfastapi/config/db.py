@@ -1,5 +1,5 @@
 from sqlalchemy import create_engine, MetaData
 
-engine = create_engine("mysql+pymysql://root:Meme20010707@localhost:3306/users_database")
+engine = create_engine("mysql+pymysql://root:@localhost:3306/users_database")
 
 meta_data = MetaData()
